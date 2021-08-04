@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="653.656" height="551.543" viewBox="0 0 653.656 551.543">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.005" y1="0.321" x2="0.996" y2="0.598" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e9e9e9"/>
+      <stop offset="0.209" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#c2c2c2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.005" y1="0.321" x2="0.996" y2="0.598" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2e8d1"/>
+      <stop offset="0.159" stop-color="#fff"/>
+      <stop offset="0.561" stop-color="#eec76f"/>
+      <stop offset="1" stop-color="#f2dca9"/>
+    </linearGradient>
+  </defs>
+  <g id="グループ_1466" data-name="グループ 1466" transform="translate(102.113 -364.464)">
+    <g id="グループ_1451" data-name="グループ 1451" transform="translate(-3.855 -1143.337)">
+      <rect id="長方形_1238" data-name="長方形 1238" width="778" height="2" transform="translate(5.269 1507.801) rotate(45)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="グループ_1464" data-name="グループ 1464" transform="translate(-238.968 -1112.337)">
+      <rect id="長方形_1238-2" data-name="長方形 1238" width="324" height="2" transform="translate(240.382 1743.51) rotate(45)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="グループ_1465" data-name="グループ 1465" transform="translate(-105.968 -1095.802)">
+      <rect id="長方形_1238-3" data-name="長方形 1238" width="663" height="2" transform="translate(5.269 1507.801) rotate(45)" fill="url(#linear-gradient-3)"/>
+    </g>
+  </g>
+</svg>
