@@ -2767,7 +2767,7 @@
     #recruit_page header.fixed .logo,
     .recruit_second header.fixed .logo {
         top: 36px;
-        width: 55px
+        width: 100px
     }
     #recruit_page header.fixed span.txt,
     .recruit_second header.fixed span.txt {
@@ -2778,7 +2778,7 @@
     #recruit_page header.fixed .head_btn,
     .recruit_second header.fixed .head_btn {
         position: absolute;
-        top: 12px;
+        top: 17px;
         z-index: 9999999
     }
     #recruit_page header.fixed .top_head_logo,
