@@ -3479,7 +3479,7 @@
     }
     .top_sc1 .top_tl {
         margin-bottom: 26px;
-        font-size: 23px
+        font-size: 39px
     }
     .top_sc1 .top_tl img {
         height: 16px
@@ -3849,9 +3849,10 @@
         margin: 0 auto 140px
     }
     .top_sc4 .top_tl {
-        font-size: 23px;
+        font-size: 39px;
         margin-bottom: 30px;
-        text-align: center
+        text-align: right;
+        padding-right: 10px;
     }
     .top_sc4 .top_tl img {
         height: 16px
@@ -3971,6 +3972,7 @@
         opacity: .9;
         z-index: 100
     }
+
     .top_sc5 {
         position: relative
     }
@@ -7556,7 +7558,7 @@
         display: none
     }
     .top_sc1 {
-        margin-bottom: 120px;
+        margin-bottom: 152px;
         text-align: center
     }
     .top_sc1 .sc_inner img {
@@ -7589,10 +7591,38 @@
     .top_sc3 .sc_inner img {
         margin-bottom: 20px
     }
-    .top_sc4 {
-        margin-bottom: 65px!important;
-        text-align: center
+
+    main{
+        overflow: hidden;
     }
+
+    .top_sc4 {
+        margin-bottom: 116px!important;
+        text-align: center;
+        position: relative;
+    }
+
+    .top_sc4::before{
+        position: absolute;
+        content: "";
+        width: 170px;
+        height: 150px;
+        background: url("../img/slash_top.svg") center center/cover no-repeat;
+        top: -90px;
+        left: -25px;
+    }
+
+    .top_sc4::after{
+        position: absolute;
+        content: "";
+        width: 170px;
+        height: 150px;
+        background: url("../img/slash_bottom.svg") center center/cover no-repeat;
+        bottom: -150px;
+        right: -25px;
+        z-index: -1;
+    }
+
     .top_sc4 .sc_inner {
         margin-bottom: 100px!important
     }
