@@ -325,7 +325,7 @@
         width: 70px
     }
     .top_head_logo.second {
-        top: 260px
+        top: 0;
     }
     .top_head_logo a {
         display: inline-block;
