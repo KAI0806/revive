@@ -1219,9 +1219,9 @@ $(function() {
 				//var tt = pp / 0.422;
 				var tt = pp / 0.182;
 				console.log(tt);
-				$(".mainv_second").css({
-					opacity: 3.8 - (tt) //opacityをprogressの値に応じて変化させます。
-				});
+				// $(".mainv_second").css({
+				// 	opacity: 3.8 - (tt)
+				// });
 			}).addTo(controller);
 
 		if ($win.width() > 768) {

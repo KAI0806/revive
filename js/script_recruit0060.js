@@ -3376,7 +3376,7 @@ $(function() {
                 var tt = pp / 0.182;
                 console.log(tt);
                 $(".mainv_second").css({
-                    opacity: 3.8 - (tt) //opacityをprogressの値に応じて変化させます。
+                    opacity: 5.5 - (tt) 
                 });
             }).addTo(controller);
 
