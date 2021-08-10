@@ -3369,7 +3369,7 @@ $(function() {
                 });
             }).addTo(controller);
 
-        var scene62 = new ScrollMagic.Scene({ triggerElement: ".mainv_second_wrap", duration: 820 })
+        var scene62 = new ScrollMagic.Scene({ triggerElement: ".mainv_second_wrap", duration: 750 })
             .on("progress", function(prog) { // 使いたいシーンに対してprogressイベントを設定します
                 var pp = prog.progress; // 0～1の値が入ってきます
                 //var tt = pp / 0.422;
