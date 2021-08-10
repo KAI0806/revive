@@ -37,6 +37,31 @@
         overflow: hidden;
         min-width: 1000px
     }
+
+    .messagev{
+        text-align: center;
+        z-index: 0;
+        width: 90%;
+        margin-left: 5%;
+        height: 100vh;
+        z-index: -1
+    }
+
+    .messagev .messagev_inner{
+        display: inline-block;
+        padding-top: 5%;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        width: 100%
+    }
+
+    .mainv .mainv_inner video {
+        width: auto;
+        max-width: none;
+        max-height: calc(100vh - 150px);
+        width: 100%
+    }
+
     .mainv {
         position: fixed;
         text-align: center;
@@ -2152,36 +2177,96 @@
         line-height: 24px;
         padding-bottom: 50px
     }
+
+    .message_read {
+        margin-top: 160px;
+        margin-bottom: 165px;
+        position: relative;
+    }
+
+    .message_read::before{
+        position: absolute;
+        content: "";
+        width: 650px;
+        height: 550px;
+        left: -5%;
+        top: -100%;
+        background: url("../img/slash_top.svg") center center/cover no-repeat;
+        z-index:-1;
+    }
+
+    .message_read::after{
+        position: absolute;
+        content: "";
+        width: 650px;
+        height: 550px;
+        right: -5%;
+        bottom: -100%;
+        background: url("../img/slash_bottom.svg") center center/cover no-repeat;
+        z-index:-1;
+    }
+
+    .message_read .message_read_inner {
+        /* padding-right: 90px; */
+        text-align: center;
+        font-size: 17px;
+        line-height: 44px;
+        /* width: 1000px; */
+        min-height: 440px;
+        margin: 0 auto 60px;
+        box-sizing: border-box
+    }
+    .message_read .message_read_inner h1 {
+        font-size: 135px;
+        position: relative;
+    }
+
+    .message_read .message_read_inner h1::before{
+        content: "";
+        position: absolute;
+        background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
+        height: 250px;
+        width: 600px;
+        right: 20%;
+        bottom: -250px;
+    }
+
     .message_sc .message_sc_inner {
-        width: 900px;
-        margin: 0 auto 230px
+        width: 1300px;
+        margin: 0 auto 230px;
     }
-    .message_sc .message_sc_inner.bottom {
-        margin-bottom: 0
+    .message_sc .message_sc_inner .message_head{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 60px;
     }
-    .message_sc .tl_h2 {
-        text-align: center;
-        font-size: 24px;
-        line-height: 44px;
-        font-weight: 400;
-        letter-spacing: 1px;
-        margin-bottom: 80px
+    .message_sc h2 {
+        font-size: 72px;
+        font-weight: 100;
     }
-    .message_sc .tl_h3 {
-        text-align: center;
-        font-size: 24px;
-        line-height: 44px;
-        font-weight: 400;
-        margin-bottom: 80px
+
+    .message_sc h2 span{
+        font-size: 40px;
+        margin-left: -60px;
+    }
+
+    .message_sc h3 {
+        font-size: 40px;
+        font-weight: 100;
+        margin: 60px auto;
+        border-left: 13px solid black;
+        padding-left: 30px;
+        margin-left: -60px;
     }
     .message_sc p {
-        font-size: 14px;
-        line-height: 28px;
+        font-size: 25px;
+        line-height: 200%;
         margin-bottom: 40px;
         letter-spacing: .5px;
-        text-align: center;
+        text-align: left;
     }
-    .message_sc .img_box {
+    /* .message_sc .img_box {
         width: 100%;
         text-align: center
     }
@@ -2197,8 +2282,15 @@
     .message_sc table td {
         font-size: 14px;
         line-height: 24px;
-        padding-bottom: 50px
+        padding-bottom: 50px */
     }
+
+    .massage_bottom{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 155px;
+    }
+
     .member_list {
         width: 900px;
         margin: 0 auto
@@ -2587,18 +2679,18 @@
     }
 
     .top_read .top_read_inner h1::before{
-        content: "Bridge for Everyone";
+        content: "";
         position: absolute;
-        font-size: 90px;
-        color: #828282;
-        transform: rotateZ(-16deg);
-        right: 0;
-        bottom: -10rem;
+        background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
+        height: 250px;
+        width: 600px;
+        right: 20%;
+        bottom: -250px;
     }
 
-    .top_read .top_read_inner p:last-child {
+    /* .top_read .top_read_inner p:last-child {
         margin-left: 0
-    }
+    } */
     .top_tl {
         font-size: 30px;
         color: #0c2041;
@@ -2677,13 +2769,13 @@
     }
 
     .top_sc2 .sc_inner .top_txt::after{
-        content: "Human resource Expert";
+        content: "";
         position: absolute;
-        font-size: 85px;
-        color: #828282;
-        transform: rotateZ(-16deg);
-        right: -68%;
-        bottom: -10rem;
+        height: 280px;
+        width: 710px;
+        background: url("../img/human_resource_expert.svg") center center/cover no-repeat;
+        right: -50%;
+        bottom: -15rem;
     }
 
     .top_sc2 .sc_inner .btn {
@@ -5775,6 +5867,7 @@
 
     .about_sc .about_sc_inner .row p{
         font-size: 12px;
+        line-height: 15px;
     }
 
     .about_sc .about_sc_inner .row .row_left{
@@ -7587,16 +7680,14 @@
 
     .top_read .top_read_inner h1::after{
         position: absolute;
-        content: "Bridge for Everyone";
-        width: max-content;
-        height: 50px;
+        content: "";
+        width: 360px;
+        height: 140px;
         letter-spacing: 0;
         line-height: 40px;
         writing-mode: horizontal-tb;
         overflow: hidden;
-        font-size: 50px;
-        color: #E9E9E9;
-        transform: rotateZ(-16deg);
+        background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
         left: -45vw;
         top: 50%;
         z-index: -1;
@@ -7656,11 +7747,22 @@
         background: url("../img/sec02_sp.png") center center/cover no-repeat;
     }
     .top_sc2 .sc_inner {
-        padding: 50px 0;
+        padding: 60px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
+    }
+
+    .top_sc2 .sc_inner::before{
+        position: absolute;
+        content: "";
+        background: url("../img/human_resource_expert.svg") center center/cover no-repeat;
+        width: 170px;
+        height: 70px;
+        bottom: 0;
+        right: 0;
     }
 
     .top_sc2 .sc_inner .top_txt{
