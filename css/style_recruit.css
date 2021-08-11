@@ -5870,6 +5870,35 @@
         margin: 0 auto 70px;
         box-sizing: border-box
     }
+
+    .about_sc{
+        position: relative;
+    }
+
+    .about_sc::before{
+        position: absolute;
+        content: "";
+        width: 170px;
+        height: 143px;
+        right: -20px;
+        top: 50px;
+        background: url("../img/reverse_top.svg") center center/cover no-repeat;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .about_sc::after{
+        position: absolute;
+        content: "";
+        width: 170px;
+        height: 143px;
+        left: -100px;
+        bottom: -120px;
+        background: url("../img/reverse_top.svg") center center/cover no-repeat;
+        z-index: -1;
+        overflow: hidden;
+    }
+
     .about_sc .about_sc_inner {
         width: 89.6%;
         margin: 0 auto 70px
