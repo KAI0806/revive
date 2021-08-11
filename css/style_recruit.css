@@ -3633,6 +3633,17 @@
         padding-top: 60px;
         width: 100%;
         z-index: -1;
+        position: relative;
+    }
+
+    .messagev::before{
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        width: 170px;
+        height: 143px;
+        background: url("../img/reverse_top.svg") center center/cover no-repeat;
     }
 
     .messagev .messagev_inner{
@@ -5908,6 +5919,23 @@
         width: 85%;
         margin: 77px auto;
     }
+
+    .message_sc .message_sc_inner .message_head{
+        position: relative;
+    }
+
+    .message_sc .message_sc_inner .message_head::after{
+        position: absolute;
+        content: "";
+        overflow: hidden;
+        left: -100px;
+        bottom: 0;
+        width: 170px;
+        height: 143px;
+        background: url("../img/reverse_top.svg");
+        z-index: -1;
+    }
+
     /* .message_sc .message_sc_inner .img_box img {
         margin-top: 20px
     } */
