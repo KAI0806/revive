@@ -2111,6 +2111,27 @@
 
     .about_sc{
         margin: 190px 0;
+        position: relative;
+    }
+
+    .about_sc::before{
+        position: absolute;
+        content: "";
+        width: 653px;
+        height: 551px;
+        left: -100px;
+        top: -100px;
+        background: url("../img/slash_top.svg") center center/cover no-repeat;
+    }
+
+    .about_sc::after{
+        position: absolute;
+        content: "";
+        width: 653px;
+        height: 551px;
+        right: -100px;
+        bottom: 0;
+        background: url("../img/slash_bottom.svg") center center/cover no-repeat;
     }
 
     .about_sc .about_sc_inner {
@@ -7771,6 +7792,21 @@
         background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
         left: -45vw;
         top: 50%;
+        z-index: -1;
+    }
+
+    .aboutkv{
+        position: relative;
+    }
+
+    .aboutkv::before{
+        position: absolute;
+        content: "";
+        left: 140px;
+        bottom: -25px;
+        width: 210px;
+        height: 80px;
+        background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
         z-index: -1;
     }
 
