@@ -2259,6 +2259,13 @@
         padding-left: 30px;
         margin-left: -60px;
     }
+
+    .message_sc h4 {
+        font-size: 33px;
+        font-weight: 100;
+        margin-bottom: 40px;
+    }
+
     .message_sc p {
         font-size: 25px;
         line-height: 200%;
@@ -2286,8 +2293,10 @@
     }
 
     .massage_bottom{
-        text-align: center;
-        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 155px;
     }
 
@@ -3597,7 +3606,7 @@
         text-align: center;
         padding-top: 110px;
         width: 100%;
-        z-index: -1
+        z-index: -1;
     }
     .mainv .mainv_inner {
         overflow: hidden;
@@ -3618,6 +3627,27 @@
         left: 50%;
         margin-left: -390px
     }
+
+    .messagev{
+        text-align: center;
+        padding-top: 60px;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .messagev .messagev_inner{
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        width: 89.6%;
+        margin: 0 auto
+    }
+
+    .messagev .messagev_inner video {
+        width: 90%;
+        height: auto;
+    }
+
     .mainv .read {
         position: absolute;
         width: 100%;
@@ -5875,32 +5905,55 @@
     }
 
     .message_sc .message_sc_inner {
-        width: 89.6%;
-        margin: 0 auto 120px
+        width: 85%;
+        margin: 77px auto;
     }
-    .message_sc .message_sc_inner .img_box img {
+    /* .message_sc .message_sc_inner .img_box img {
         margin-top: 20px
-    }
-    .message_sc .tl_h2 {
+    } */
+    .message_sc h2 {
         text-align: center;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 28px;
         font-weight: 400;
-        margin-bottom: 50px
+        margin: 43px auto;
     }
-    .message_sc .tl_h3 {
-        text-align: center;
-        font-size: 24px;
-        line-height: 44px;
+
+    .message_sc h2 img{
+        margin-left: 20px;
+    }
+
+    .message_sc h3 {
+        font-size: 17px;
         font-weight: 400;
-        margin-bottom: 80px
+        margin: 12px auto;
+        border-left: 7px solid black;
+        padding-left: 5px;
     }
+
+    .message_sc h4 {
+        font-weight: 400;
+        margin: 12px auto;
+        width: 90%;
+    }
+
     .message_sc p {
+        width: 90%;
         font-size: 13px;
         line-height: 23px;
-        margin-bottom: 30px
+        margin: auto;
     }
-    .message_sc .img_box {
+
+    .massage_bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 77px;
+    }
+
+
+    /* .message_sc .img_box {
         width: 100%;
         text-align: center
     }
@@ -5923,7 +5976,7 @@
         font-size: 14px;
         line-height: 24px;
         padding-bottom: 50px
-    }
+    } */
     .culture_sc .culture_sc_inner {
         width: 89.6%;
         margin: 0 auto 80px
@@ -7691,6 +7744,44 @@
         left: -45vw;
         top: 50%;
         z-index: -1;
+    }
+
+    .messagekv{
+        position: relative;
+    }
+
+    .messagekv::before{
+        position: absolute;
+        content: "";
+        left: 140px;
+        bottom: -25px;
+        width: 210px;
+        height: 80px;
+        background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
+        z-index: -1;
+    }
+
+    .message_read{
+        width: 100%;
+        text-align: center;
+    }
+
+    .message_read .message_read_inner{
+        width: 100%;
+        text-align: center;
+        line-height: 30px;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .message_read .message_read_inner h1 {
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        position: relative;
     }
 
     .mainv {
