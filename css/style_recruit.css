@@ -376,7 +376,7 @@
         background-color: #a9b6cc
     }
     .top_head_entry.second {
-        top: 260px
+        top: 0;
     }
     .top_head_entry a {
         display: inline-block;
