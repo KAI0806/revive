@@ -772,6 +772,65 @@
         margin-right: 30px;
         transform: translateY(50%);
     }
+
+    .service_sc .sc_inner{
+        width: 100%;
+        margin: 0 auto 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+
+    .service_sc::before{
+        position: absolute;
+        content: "";
+        width: 653px;
+        height: 551px;
+        top: -10%;
+        right: 0;
+        background: url("../img/reverse_top.svg") center center/cover no-repeat;
+    }
+
+    .service_sc::after{
+        position: absolute;
+        content: "";
+        width: 653px;
+        height: 551px;
+        top: 20%;
+        left: -15%;
+        background: url("../img/reverse_top.svg") center center/cover no-repeat;
+        z-index: -1;
+    }
+
+    .service_sc .sc_inner .service1, .service_sc .sc_inner .service2{
+        width: 35%;
+    }
+
+    .service_sc .sc_inner div h2{
+        margin: 50px auto 10px;
+        font-size: 25px;
+        border-left: 13px solid black;
+        padding-left: 25px;
+    }
+
+    .service_sc .sc_inner div h2 span{
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .service_sc .sc_inner div p+p{
+        margin: 15px auto;
+    }
+
+    .service_sc .sc_inner div p {
+        font-size: 20px;
+    }
+
+    .service_sc .sc_inner .hre{
+        margin-bottom: 150px;
+    }
+
     /* .footer_contact {
         overflow: hidden;
         width: 100%;
@@ -1291,13 +1350,21 @@
         color: red;
         line-height: 24px
     }
-    .contact_sc.done {
+    /* .contact_sc.done {
         margin-top: 100px
-    }
-    .contact_sc_inner {
+    } */
+    .contact_sc .contact_sc_inner {
         width: 900px;
-        margin: 0 auto
+        margin: 0 auto 217px;
     }
+
+    .contact_sc .contact_sc_inner h2{
+        font-size: 40px;
+        margin-bottom: 112px;
+        text-align: center;
+        line-height: 200%;
+    }
+
     .contact_head p {
         font-size: 15px;
         line-height: 34px;
@@ -5150,17 +5217,39 @@
         line-height: 50px
     }
     .contact_sc {
-        margin-top: 80px
+        margin-top: 0px
     }
-    .contact_sc.done {
+    /* .contact_sc.done {
         margin-top: 80px
-    }
-    .contact_sc_inner {
+    } */
+    .contact_sc .contact_sc_inner {
         width: 89.6%;
         padding-top: 40px;
         margin: 0 auto
     }
-    .contact_sc_inner.sp_display {
+
+    .contact_sc .contact_sc_inner h2{
+        font-size: 15px;
+        text-align: center;
+        line-height: 200%;
+    }
+
+    .contactkv{
+        position: relative;
+    }
+
+    .contactkv::before{
+        position: absolute;
+        content: "";
+        left: 140px;
+        bottom: -25px;
+        width: 210px;
+        height: 80px;
+        background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
+        z-index: -1;
+    }
+
+    /* .contact_sc_inner.sp_display {
         padding-top: 0
     }
     .contact_sc_inner.sp_display p {
@@ -5169,9 +5258,9 @@
     .contact_sc_inner.done {
         padding-top: 0
     }
-    .contact_sc_inner.done p {
+    .contact_sc_inner.done p { 
         margin-bottom: 50px
-    }
+    }*/ 
     .contact_h1 {
         position: absolute;
         top: 62px;
@@ -6490,11 +6579,81 @@
         font-size: 13px;
         line-height: 18px
     }
-    .service_sc1 .sc_inner {
-        width: 100%;
-        margin: 0 auto 125px
+    .service_sc .sc_inner {
+        width: 90%;
+        margin: 0 auto 0;
     }
-    .service_sc1 .tl_h2 {
+
+    .service_sc .sc_inner .sp_flex1{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 27px;
+    }
+
+    .service_sc .sc_inner .sp_flex1 img{
+        width: 190px;
+        height: auto;
+    }
+
+    .service_sc .sc_inner .sp_flex1 h2{
+        font-size: 25px;
+        position: relative;
+    }
+
+    .service_sc .sc_inner .sp_flex1 h2::before{
+        position: absolute;
+        content: "";
+        left: -10px;
+        top: 2px;
+        height: 25px;
+        width: 7px;
+        background: black;
+    }
+
+    .service_sc .sc_inner .sp_flex1 h2 span{
+        font-size: 16px;
+    }
+
+    .service_sc .sc_inner div p{
+        font-size: 14px;
+        line-height: 200%;
+    }
+
+    .service_sc .sc_inner div p+p{
+        margin: 10px auto;
+    }
+
+    .service_sc .sc_inner .sp_flex2{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 75px auto 27px;
+        flex-direction: row-reverse;
+    }
+
+    .service_sc .sc_inner .sp_flex2 img{
+        width: 190px;
+        height: auto;
+    }
+
+    .service_sc .sc_inner .sp_flex2 h2{
+        font-size: 16px;
+        position: relative;
+        margin-right: 7px;
+    }
+
+    .service_sc .sc_inner .sp_flex2 h2::before{
+        position: absolute;
+        content: "";
+        left: -10px;
+        top: 2px;
+        height: 25px;
+        width: 7px;
+        background: black;
+    }
+
+    /* .service_sc1 .tl_h2 {
         text-align: center;
         margin-bottom: 30px;
         vertical-align: bottom
@@ -6913,7 +7072,7 @@
         text-align: left;
         font-weight: 700;
         color: #edf6fc
-    }
+    } */
     .works_list li {
         width: 100%;
         margin-bottom: 75px
@@ -7836,6 +7995,21 @@
         width: 210px;
         height: 80px;
         background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
+        z-index: -1;
+    }
+
+    .servicekv{
+        position: relative;
+    }
+
+    .servicekv::before{
+        position: absolute;
+        content: "";
+        left: 140px;
+        bottom: -25px;
+        width: 210px;
+        height: 80px;
+        background: url("../img/human_resource_expert.svg") center center/cover no-repeat;
         z-index: -1;
     }
 
