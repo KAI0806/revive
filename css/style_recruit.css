@@ -6652,6 +6652,7 @@
         font-size: 16px;
         position: relative;
         margin-right: 7px;
+        line-height: 200%;
     }
 
     .service_sc .sc_inner .sp_flex2 h2::before{
