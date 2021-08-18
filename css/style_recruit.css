@@ -2815,6 +2815,7 @@
         padding-right: 600px;
         background: url("../img/top_about.png");
         background-size: 472px 472px;
+        height: 472px;
         background-repeat: no-repeat;
         background-position: right top
     }
