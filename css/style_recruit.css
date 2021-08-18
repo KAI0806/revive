@@ -2781,7 +2781,7 @@
         background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
         height: 250px;
         width: 600px;
-        /* right: 20%; */
+        right: 20%;
         bottom: -250px;
     }
 
@@ -3772,9 +3772,11 @@
         text-align: center
     }
 
-    .top_sc1 .inner{
+    .top_sc1 .sc_inner{
         width: 100%;
         box-sizing: unset;
+        padding: 0;
+        background: none;
     }
 
     .top_sc1 .top_tl {
@@ -4275,11 +4277,12 @@
     }
 
     .top_sc5 {
-        position: relative
+        position: relative;
+        margin-bottom: 0;
     }
     .top_sc5 .sc_inner {
         width: 100%;
-        margin: 0 auto 100px
+        margin: 0 auto 0px;
     }
     .top_sc5 .top_tl {
         font-size: 23px;
@@ -4289,12 +4292,13 @@
     .top_sc5 .sc_inner .client_head {
         text-align: center;
         height: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
     .top_sc5 .sc_inner h2{
         text-align: center;
         font-size: 15px;
+        margin-bottom: 50px;
     }
 
     .top_sc5 .sc_inner .client_list{
@@ -7972,6 +7976,7 @@
         height: 75px;
         top: 100%;
         left: 50%;
+        right: unset;
         background: black;
     }
 
@@ -8107,7 +8112,7 @@
         margin-bottom: 20px
     }
     .top_sc2 {
-        margin-bottom: 125px;
+        margin-bottom: 100px;
         text-align: center;
         height: auto;
         background: url("../img/sec02_sp.png") center center/cover no-repeat;
