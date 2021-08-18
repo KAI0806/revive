@@ -3771,6 +3771,12 @@
         box-sizing: border-box;
         text-align: center
     }
+
+    .top_sc1 .inner{
+        width: 100%;
+        box-sizing: unset;
+    }
+
     .top_sc1 .top_tl {
         margin-bottom: 26px;
         font-size: 39px
