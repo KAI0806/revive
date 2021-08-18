@@ -2781,7 +2781,7 @@
         background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
         height: 250px;
         width: 600px;
-        right: 20%;
+        /* right: 20%; */
         bottom: -250px;
     }
 
@@ -4140,7 +4140,8 @@
     }
     .top_sc4 .sc_inner {
         width: 100%;
-        margin: 0 auto 140px
+        margin: 0 auto 140px;
+        padding: 0;
     }
     .top_sc4 .top_tl {
         font-size: 39px;
@@ -7962,7 +7963,7 @@
         position: absolute;
         content: "";
         width: 1px;
-        height: 70px;
+        height: 75px;
         top: 100%;
         left: 50%;
         background: black;
@@ -8102,6 +8103,7 @@
     .top_sc2 {
         margin-bottom: 125px;
         text-align: center;
+        height: auto;
         background: url("../img/sec02_sp.png") center center/cover no-repeat;
     }
     .top_sc2 .sc_inner {
@@ -8119,12 +8121,18 @@
         background: url("../img/human_resource_expert.svg") center center/cover no-repeat;
         width: 170px;
         height: 70px;
-        bottom: 0;
+        bottom: 5px;
         right: 0;
     }
 
     .top_sc2 .sc_inner .top_txt{
         text-align: left;
+        font-size: 24px;
+        line-height: 200%;
+    }
+
+    .top_sc2 .sc_inner .top_txt::after{
+        display: none;
     }
 
     .top_sc2 .sc_inner img {
@@ -8170,7 +8178,8 @@
     }
 
     .top_sc4 .sc_inner {
-        margin-bottom: 100px!important
+        margin-bottom: 100px!important;
+        background: none;
     }
     .top_sc4 .sc_inner img {
         margin-bottom: 20px
