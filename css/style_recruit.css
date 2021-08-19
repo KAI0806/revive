@@ -1318,7 +1318,7 @@
         transition: all .6s cubic-bezier(.83, 0, .06, 1)
     }
     .btn a:hover {
-        background-color: #a9b6cc;
+        background-color: #636363;
         color: #fff
     }
     .btn a:hover .line {
