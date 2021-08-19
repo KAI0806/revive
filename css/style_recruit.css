@@ -140,6 +140,7 @@
         position: relative;
         width: 1350px;
         margin: 0 auto;
+        overflow: hidden;
     }
     .mainv_second .mainv_inner img {
         position: fixed;
