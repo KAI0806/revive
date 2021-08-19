@@ -4666,6 +4666,7 @@
     footer .footer_content nav ul li{
         margin-bottom: 15px;
         padding-left: 20px;
+        border: 0;
         border-left: 6px solid;
         border-image: linear-gradient(to bottom, white 0%, #6B6B6B 60%, #808080 100%);
         border-image-slice: 1;
