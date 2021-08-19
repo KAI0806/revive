@@ -182,14 +182,14 @@
         right: -20px;
         bottom: 20%;
         transform: rotate(90deg);
-        color: #8b9bb4;
+        color: #adadad;
         padding-right: 5px;
         font-size: 12px;
         line-height: 16px;
         vertical-align: middle
     }
     .btn_scroll:hover {
-        color: #8b9bb4
+        color: #adadad
     }
     .btn_scroll span.txt {
         position: absolute;
@@ -201,7 +201,7 @@
         display: inline-block;
         width: 120px;
         height: 1px;
-        background-color: #8b9bb4;
+        background-color: #b6b6b6;
         line-height: 1px;
         vertical-align: middle;
         margin-left: 10px;
@@ -215,7 +215,7 @@
         left: -120px;
         width: 120px;
         height: 1px;
-        background-color: #0c2041;
+        background-color: black;
         -webkit-animation: scroll-bar 4.5s cubic-bezier(.355, .02, .415, .855) infinite;
         animation: scroll-bar 4.5s cubic-bezier(.355, .02, .415, .855) infinite
     }
@@ -228,20 +228,20 @@
         margin-right: -627px;
         bottom: 105px;
         transform: rotate(90deg);
-        color: #8b9bb4;
+        color: #b1b1b1;
         padding-right: 5px;
         font-size: 12px;
         line-height: 16px;
         vertical-align: middle
     }
     .btn_top:hover {
-        color: #8b9bb4
+        color: #b4b4b4
     }
     .btn_top span {
         display: inline-block;
         width: 120px;
         height: 3px;
-        border-top: 1px solid #8b9bb4;
+        border-top: 1px solid #b4b4b4;
         line-height: 1px;
         vertical-align: middle;
         margin-left: 10px
