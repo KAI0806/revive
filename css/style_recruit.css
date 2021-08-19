@@ -8137,7 +8137,7 @@
         width: 210px;
         height: 80px;
         background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
-        z-index: -1;
+        z-index: 0;
     }
 
     .servicekv{
@@ -8152,7 +8152,7 @@
         width: 210px;
         height: 80px;
         background: url("../img/human_resource_expert.svg") center center/cover no-repeat;
-        z-index: -1;
+        z-index: 0;
     }
 
     .messagekv{
@@ -8167,7 +8167,7 @@
         width: 210px;
         height: 80px;
         background: url("../img/bridge_for_everyone.svg") center center/cover no-repeat;
-        z-index: -1;
+        z-index: 0;
     }
 
     .message_read{
