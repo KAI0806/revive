@@ -43,7 +43,8 @@
         z-index: 0;
         width: 90%;
         margin-left: 5%;
-        height: 100vh;
+        /* height: 100vh; */
+        margin-bottom: 200px;
         z-index: -1
     }
 
