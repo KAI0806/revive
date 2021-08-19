@@ -132,7 +132,8 @@
         z-index: 0;
         top: 95px;
         width: 100%;
-        margin-bottom: 50px
+        margin-bottom: 50px;
+        overflow: hidden;
     }
     .mainv_second .mainv_inner {
         opacity: 0;
@@ -140,7 +141,6 @@
         position: relative;
         width: 1350px;
         margin: 0 auto;
-        overflow: hidden;
     }
     .mainv_second .mainv_inner img {
         position: fixed;
