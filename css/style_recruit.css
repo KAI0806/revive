@@ -8136,7 +8136,7 @@
     .aboutkv::before{
         position: absolute;
         content: "";
-        left: 140px;
+        right: 0;
         bottom: -25px;
         width: 210px;
         height: 80px;
@@ -8151,7 +8151,7 @@
     .servicekv::before{
         position: absolute;
         content: "";
-        left: 140px;
+        right: 0;
         bottom: -25px;
         width: 210px;
         height: 80px;
@@ -8166,7 +8166,7 @@
     .messagekv::before{
         position: absolute;
         content: "";
-        left: 140px;
+        right: 0;
         bottom: -25px;
         width: 210px;
         height: 80px;
