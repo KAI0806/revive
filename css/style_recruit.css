@@ -3568,7 +3568,7 @@
     .gnav_list li:nth-child(1) a {
         position: relative;
         font-size: 18px;
-        color: #0c2041
+        color: black;
     }
     .gnav_list li:nth-child(1) a:after {
         content: "";
