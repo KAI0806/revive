@@ -4618,6 +4618,12 @@
         padding: 62px 0 25px 0;
         position: relative;
     }
+    
+
+    footer .footer_content{
+        position: relative;
+        z-index: 1;
+    }
 
     footer .footer_content .footer_left{
         display: flex;
