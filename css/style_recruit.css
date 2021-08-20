@@ -3168,12 +3168,12 @@
     }
     #recruit_page header.fixed .top_head_logo,
     .recruit_second header.fixed .top_head_logo {
-        top: 0
+        top: 18px;
     }
     .top_head_logo {
         display: none;
         position: fixed;
-        top: 0;
+        top: 24px;
         left: 5.3%;
         z-index: 1000;
         transition: all .6s cubic-bezier(.83, 0, .06, 1)
@@ -3815,7 +3815,7 @@
     .mainv {
         position: fixed;
         text-align: center;
-        padding-top: 110px;
+        padding-top: 75px;
         width: 100%;
         z-index: -1;
     }
@@ -3824,7 +3824,7 @@
         opacity: 0;
         display: inline-block;
         position: relative;
-        width: 89.6%;
+        width: 100%;
         height: 300px;
         margin: 0 auto
     }
@@ -8094,7 +8094,8 @@
         margin-bottom: 100px;
         width: 100%;
         text-align: center;
-        opacity: 0
+        opacity: 0;
+        margin-top: 0;
     }
     .top_read .top_read_inner {
         width: 100%;
