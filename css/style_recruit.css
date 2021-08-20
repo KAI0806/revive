@@ -445,7 +445,7 @@
         z-index: 99999
     }
     .gnav_wrap.second {
-        top: 12px;
+        top: 0px;
         bottom: 0
     }
     .gnav_wrap.second .gnav_list {
