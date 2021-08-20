@@ -43,7 +43,7 @@
         z-index: 0;
         width: 100%;
         /* margin-left: 5%; */
-        height: 100vh;
+        height: auto;
         margin-bottom: 200px;
         z-index: -1
     }
@@ -2459,7 +2459,7 @@
     }
 
     .movie{
-        width: 100%;
+        width: 1300px;
     }
 
     .member_list li a:hover .name:after {
