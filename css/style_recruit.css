@@ -818,7 +818,7 @@
     }
 
     .service_sc .sc_inner div h2{
-        margin: 50px auto 10px;
+        margin: 50px auto 40px;
         font-size: 25px;
         border-left: 13px solid black;
         padding-left: 25px;
@@ -3845,6 +3845,7 @@
         height: auto;
         position: absolute;
         left: 50%;
+        top: -20%;
         margin-left: -390px
     }
 
@@ -6790,8 +6791,9 @@
 
     .service_sc .sc_inner .sp_flex2{
         display: flex;
-        justify-content: flex-start;
-        align-items: center;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-left: 10px;
         margin: 75px auto 27px;
         flex-direction: row-reverse;
     }
