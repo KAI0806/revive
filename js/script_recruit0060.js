@@ -36,7 +36,7 @@ window.Modernizr = function(a, b, c) {
             v, w = function(a, c, d, e) { var f, i, j, k, l = b.createElement("div"),
                     m = b.body,
                     n = m || b.createElement("body"); if (parseInt(d, 10))
-                    while (d--) j = b.createElement("div"), j.id = e ? e[d] : h + (d + 1), l.appendChild(j); return f = ["&#173;", '<style id="s', h, '">', a, "</style>"].join(""), l.id = h, (m ? l : n).innerHTML += f, n.appendChild(l), m || (n.style.background = "", n.style.overflow = "hidden", k = g.style.overflow, g.style.overflow = "hidden", g.appendChild(n)), i = c(l, a), m ? l.parentNode.removeChild(l) : (n.parentNode.removeChild(n), g.style.overflow = k), !!i },
+                    while (d--) j = b.createElement("div"), j.id = e ? e[d] : h + (d + 1), l.appendChild(j); return f = ["&#173;", '<style id="s', h, '">', a, "</style>"].join(""), l.id = h, (m ? l : n).innerHTML += f, n.appendChild(l), m || (n.style.background = "", n.style.overflow = "auto", k = g.style.overflow, g.style.overflow = "hidden", g.appendChild(n)), i = c(l, a), m ? l.parentNode.removeChild(l) : (n.parentNode.removeChild(n), g.style.overflow = k), !!i },
             x = {}.hasOwnProperty,
             y;!B(x, "undefined") && !B(x.call, "undefined") ? y = function(a, b) { return x.call(a, b) } : y = function(a, b) { return b in a && B(a.constructor.prototype[b], "undefined") }, Function.prototype.bind || (Function.prototype.bind = function(b) { var c = this; if (typeof c != "function") throw new TypeError; var d = u.call(arguments, 1),
                 e = function() { if (this instanceof e) { var a = function() {};
@@ -3072,7 +3072,7 @@ $(function() {
                     $('.page_tl').stop(true, true).fadeIn(2500);
                 }
             }
-            $('html').css({ overflow: 'auto' });
+            $('html, body').css({ overflow: 'auto' });
             document.removeEventListener('touchmove', handleTouchMove, { passive: false });
             //(window).off('touchmove.noscroll');
             //$( 'html, body' ).prop( { scrollTop: _thisscroll } );
