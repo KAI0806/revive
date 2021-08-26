@@ -3056,7 +3056,7 @@ $(function() {
                     }
                 }
             }
-            // $('html, body').css({ overflow: 'hidden' });
+            $('html, body').css({ overflow: 'hidden' });
         } else {
             $(".tl_h1").fadeIn();
             $('.gnav_wrap_sp').stop(true, true).fadeOut(1000);
@@ -3072,8 +3072,8 @@ $(function() {
                     $('.page_tl').stop(true, true).fadeIn(2500);
                 }
             }
-            // $('html, body').css({ overflow: 'auto' });
-            // document.removeEventListener('touchmove', handleTouchMove, { passive: false });
+            $('html, body').css({ overflow: 'auto' });
+            document.removeEventListener('touchmove', handleTouchMove, { passive: false });
             //(window).off('touchmove.noscroll');
             //$( 'html, body' ).prop( { scrollTop: _thisscroll } );
             //setTimeout(function(){
