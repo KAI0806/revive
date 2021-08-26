@@ -3028,11 +3028,11 @@ $(function() {
                     is_bottom = touch_start_y >= current_y && $('.gnav_wrap_sp')[0].scrollHeight - $('.gnav_wrap_sp')[0].scrollTop === height;
 
                 // スクロール対応モーダルの上端または下端のとき
-                if (is_top || is_bottom) {
+                // if (is_top || is_bottom) {
                     // スクロール禁止
-                    document.addEventListener('touchmove', handleTouchMove, { passive: false });
+                    // document.addEventListener('touchmove', handleTouchMove, { passive: false });
                     //event.preventDefault();
-                }
+                // }
 
             });
             //$('header').stop(true, true).fadeIn(1600);
