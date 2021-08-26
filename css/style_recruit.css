@@ -6258,7 +6258,7 @@
     .message_sc h3 {
         font-size: 17px;
         font-weight: 400;
-        margin: 12px auto;
+        margin: 26px auto 12px;
         border-left: 7px solid black;
         padding-left: 5px;
     }
